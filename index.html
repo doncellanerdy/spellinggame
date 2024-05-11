@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Your description goes here">
+		<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Spelling Game</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<main>
+			<h1>The Spelling Game</h1>
+			<img src='images/cat.png' alt='drawing of two white cats one a top of another'>
+			<section class='keys'>
+				<section data-key='67' class='key'>
+					<kbd>C</kbd>
+					<span class='letterType'>consonant</span>
+				</section>
+				<section data-key='65' class='key'>
+					<kbd>A</kbd>
+					<span class='letterType'>vowel</span>
+				</section>
+				<section data-key='84' class='key'>
+					<kbd>T</kbd>
+					<span class='letterType'>consonant</span>
+				</section>
+			</section>
+		</main>
+		<audio data-key='67' src='sounds/c.wav'></audio>
+		<audio data-key='65' src='sounds/a.wav'></audio>
+		<audio data-key='84' src='sounds/t.wav'></audio>
+		<audio class='meow' src='sounds/cat-meow.wav'></audio>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
